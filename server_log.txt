@@ -1,0 +1,310 @@
+[2024-12-06T08:29:01.010Z] Error stopping server: Command failed: ps -p 16520
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-06T08:29:04.939Z] ERROR: node:internal/modules/cjs/loader:1145
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\Home\Desktop\TMP\HelpBot\server.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+    at Module._load (node:internal/modules/cjs/loader:983:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.7.1
+
+[2024-12-06T08:29:04.943Z] Server process exited with code 1
+[2024-12-06T08:29:47.180Z] Error stopping server: Command failed: ps -p 17568
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-06T08:29:53.122Z] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='faq';
+
+[2024-12-06T08:29:53.124Z] Executing (default): PRAGMA INDEX_LIST(`faq`)
+
+[2024-12-06T08:29:53.125Z] База данных синхронизирована.
+
+[2024-12-06T08:29:53.128Z] Сервер запущен на http://localhost:3000
+
+[2024-12-06T08:30:04.000Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:30:21.960Z] Executing (default): INSERT INTO `faq` (`id`,`module`,`subcategory`,`name`,`question`,`answer`) VALUES (NULL,$1,$2,$3,$4,$5);
+
+[2024-12-06T08:30:21.971Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:30:27.671Z] Executing (default): DELETE FROM `faq` WHERE `id` = '7'
+
+[2024-12-06T08:30:27.680Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:30:30.918Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:35:37.639Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:04.727Z] Executing (default): DELETE FROM `faq` WHERE `id` = '4'
+
+[2024-12-06T08:37:04.741Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:07.910Z] Executing (default): DELETE FROM `faq` WHERE `id` = '3'
+
+[2024-12-06T08:37:07.921Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:09.455Z] Executing (default): DELETE FROM `faq` WHERE `id` = '2'
+
+[2024-12-06T08:37:09.465Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:10.463Z] Executing (default): DELETE FROM `faq` WHERE `id` = '5'
+
+[2024-12-06T08:37:10.473Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:11.231Z] Executing (default): DELETE FROM `faq` WHERE `id` = '6'
+
+[2024-12-06T08:37:11.246Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:14.591Z] Executing (default): DELETE FROM `faq` WHERE `id` = '1'
+
+[2024-12-06T08:37:14.610Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:20.324Z] Executing (default): INSERT INTO `faq` (`id`,`module`,`subcategory`,`name`,`question`,`answer`) VALUES (NULL,$1,$2,$3,$4,$5);
+
+[2024-12-06T08:37:20.337Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:26.676Z] Executing (default): INSERT INTO `faq` (`id`,`module`,`subcategory`,`name`,`question`,`answer`) VALUES (NULL,$1,$2,$3,$4,$5);
+
+[2024-12-06T08:37:26.687Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:33.864Z] Executing (default): DELETE FROM `faq` WHERE `id` = '9'
+
+[2024-12-06T08:37:33.874Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:34.584Z] Executing (default): DELETE FROM `faq` WHERE `id` = '8'
+
+[2024-12-06T08:37:34.594Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:37:52.500Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:46:09.632Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:46:16.694Z] Executing (default): UPDATE `faq` SET `module`=$1,`subcategory`=$2,`name`=$3,`question`=$4,`answer`=$5 WHERE `id` = $6
+
+[2024-12-06T08:46:16.700Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ` WHERE `FAQ`.`id` = '1';
+
+[2024-12-06T08:46:16.714Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:48:55.252Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:52:39.019Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:52:51.316Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:52:56.681Z] Executing (default): INSERT INTO `faq` (`id`,`module`,`subcategory`,`name`,`question`,`answer`) VALUES (NULL,$1,$2,$3,$4,$5);
+
+[2024-12-06T08:52:56.692Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:52:58.365Z] Executing (default): DELETE FROM `faq` WHERE `id` = '7'
+
+[2024-12-06T08:52:58.377Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:53:21.532Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:53:29.210Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:53:36.987Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:53:40.378Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:54:41.547Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:57:33.751Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:57:51.598Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T08:58:17.779Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:36.407Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:39.450Z] Executing (default): DELETE FROM `faq` WHERE `id` = '1'
+
+[2024-12-06T09:04:39.460Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:41.865Z] Executing (default): DELETE FROM `faq` WHERE `id` = '2'
+
+[2024-12-06T09:04:41.876Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:42.585Z] Executing (default): DELETE FROM `faq` WHERE `id` = '3'
+
+[2024-12-06T09:04:42.594Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:43.273Z] Executing (default): DELETE FROM `faq` WHERE `id` = '4'
+
+[2024-12-06T09:04:43.282Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:43.673Z] Executing (default): DELETE FROM `faq` WHERE `id` = '5'
+
+[2024-12-06T09:04:43.682Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:44.057Z] Executing (default): DELETE FROM `faq` WHERE `id` = '6'
+
+[2024-12-06T09:04:44.066Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-06T09:04:47.201Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
+[2024-12-13T05:36:05.353Z] Error stopping server: Command failed: ps -p 18196
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:36:21.304Z] ERROR: node:internal/modules/esm/resolve:264
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\Home\Downloads\HelpBot\models\WEL.mjs' imported from C:\Users\Home\Downloads\HelpBot\routes\faqRoutes.mjs
+    at finalizeResolution (node:internal/modules/esm/resolve:264:11)
+    at moduleResolve (node:internal/modules/esm/resolve:924:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1148:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/Home/Downloads/HelpBot/models/WEL.mjs'
+}
+
+Node.js v21.7.1
+
+[2024-12-13T05:36:21.308Z] Server process exited with code 1
+[2024-12-13T05:37:24.032Z] Error stopping server: Command failed: ps -p 2208
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:37:30.002Z] ERROR: node:internal/modules/esm/resolve:264
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\Home\Downloads\HelpBot\models\WEL.mjs' imported from C:\Users\Home\Downloads\HelpBot\routes\faqRoutes.mjs
+    at finalizeResolution (node:internal/modules/esm/resolve:264:11)
+    at moduleResolve (node:internal/modules/esm/resolve:924:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1148:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/Home/Downloads/HelpBot/models/WEL.mjs'
+}
+
+Node.js v21.7.1
+
+[2024-12-13T05:37:30.006Z] Server process exited with code 1
+[2024-12-13T05:39:05.712Z] Error stopping server: Command failed: ps -p 21548
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:39:07.358Z] ERROR: node:internal/modules/esm/resolve:264
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\Home\Downloads\HelpBot\models\WEL.mjs' imported from C:\Users\Home\Downloads\HelpBot\routes\faqRoutes.mjs
+    at finalizeResolution (node:internal/modules/esm/resolve:264:11)
+    at moduleResolve (node:internal/modules/esm/resolve:924:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1148:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/Home/Downloads/HelpBot/models/WEL.mjs'
+}
+
+Node.js v21.7.1
+
+[2024-12-13T05:39:07.362Z] Server process exited with code 1
+[2024-12-13T05:40:01.554Z] Error stopping server: Command failed: ps -p 3036
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:40:03.368Z] ERROR: node:internal/modules/esm/resolve:264
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\Home\Downloads\HelpBot\models\WEL.mjs' imported from C:\Users\Home\Downloads\HelpBot\routes\faqRoutes.mjs
+    at finalizeResolution (node:internal/modules/esm/resolve:264:11)
+    at moduleResolve (node:internal/modules/esm/resolve:924:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1148:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/Home/Downloads/HelpBot/models/WEL.mjs'
+}
+
+Node.js v21.7.1
+
+[2024-12-13T05:40:03.372Z] Server process exited with code 1
+[2024-12-13T05:42:38.076Z] Error stopping server: Command failed: ps -p 13396
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:42:40.263Z] ERROR: node:internal/modules/esm/resolve:264
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\Home\Downloads\HelpBot\models\WEL.mjs' imported from C:\Users\Home\Downloads\HelpBot\routes\faqRoutes.mjs
+    at finalizeResolution (node:internal/modules/esm/resolve:264:11)
+    at moduleResolve (node:internal/modules/esm/resolve:924:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1148:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)
+    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)
+    at link (node:internal/modules/esm/module_job:86:36) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/Home/Downloads/HelpBot/models/WEL.mjs'
+}
+
+Node.js v21.7.1
+
+[2024-12-13T05:42:40.267Z] Server process exited with code 1
+[2024-12-13T05:44:05.606Z] Error stopping server: Command failed: ps -p 14420
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:44:07.276Z] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='faq';
+
+[2024-12-13T05:44:07.278Z] Executing (default): PRAGMA INDEX_LIST(`faq`)
+
+[2024-12-13T05:44:07.279Z] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='wel';
+
+[2024-12-13T05:44:07.280Z] Executing (default): CREATE TABLE IF NOT EXISTS `wel` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` VARCHAR(255) NOT NULL, `text` TEXT NOT NULL, `img` TEXT NOT NULL);
+
+[2024-12-13T05:44:07.285Z] Executing (default): PRAGMA INDEX_LIST(`wel`)
+
+[2024-12-13T05:44:07.286Z] База данных синхронизирована.
+
+[2024-12-13T05:44:07.289Z] Сервер запущен на http://localhost:80
+
+[2024-12-13T05:45:27.189Z] Error stopping server: Command failed: ps -p 8592
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+[2024-12-13T05:45:32.857Z] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='faq';
+
+[2024-12-13T05:45:32.859Z] Executing (default): PRAGMA INDEX_LIST(`faq`)
+
+[2024-12-13T05:45:32.860Z] Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='wel';
+
+[2024-12-13T05:45:32.860Z] Executing (default): PRAGMA INDEX_LIST(`wel`)
+
+[2024-12-13T05:45:32.861Z] База данных синхронизирована.
+
+[2024-12-13T05:45:32.863Z] Сервер запущен на http://localhost:3000
+
+[2024-12-13T05:46:16.922Z] Executing (default): SELECT `id`, `module`, `subcategory`, `name`, `question`, `answer` FROM `faq` AS `FAQ`;
+
